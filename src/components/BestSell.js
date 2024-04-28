@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { useRef,useEffect,useState } from 'react';
 import '../styles/categories.css';
-import Navbar from './Navbar'
+import Navbar from './navbar'
 import EndContainer from './endContainer';
 import { useCart } from './CartContext';
 

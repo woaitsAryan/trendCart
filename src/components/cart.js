@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useCart } from './CartContext';
 import '../styles/cart.css';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
-import Navbar from './Navbar'
+import Navbar from './navbar'
 import EndContainer from './endContainer';
 
 function Cart() {

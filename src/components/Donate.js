@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/donate.css';
-import Navbar from './Navbar'
+import Navbar from './navbar'
 import EndContainer from './endContainer';
 
 const ClothesDonationPage = () => {
