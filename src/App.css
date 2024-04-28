@@ -141,7 +141,7 @@ body{
   bottom: -22px; /* Adjusted positioning for underline */
   left: -65%;
   opacity: 0;
-  transition: opacity 0.3s ease; /* Added transition for smoother effect */
+  transition: opacity 0.2s ease; /* Added transition for smoother effect */
 }
 
 .links:hover::after {
@@ -272,4 +272,7 @@ body{
     transform: translate(-100%,0); 
   }
 } */
+
+
+
 

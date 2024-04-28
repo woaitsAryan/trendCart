@@ -1,0 +1,68 @@
+
+
+/* Container for the entire shopping cart */
+.cart {
+    padding: 10px;
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.cart-table{
+    margin-top: 5%;
+    width: calc(50% - 20px);
+    margin-left: -5%    ;
+}
+
+/* Styles for each item in the cart */
+.cart ul {
+    list-style: none;
+}
+
+.cart-content{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.cart li {
+    display: flex;
+    width: calc(50% - 20px);
+    justify-content: flex-start;
+    
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-name
+{
+    margin-left: 10%;
+}
+
+/* Button styles */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.cart-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 1px solid #ddd; /* Add bottom border to each tr except the last one */
+}
+
+.bill-table{
+    height: 250px;
+    width: 350px;
+}
+.cart-bill{
+    padding-top: 10%;
+    margin-left: 10%;
+}

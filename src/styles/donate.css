@@ -1,0 +1,119 @@
+.add-cloth-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the start of the column */
+    width: 60%;
+    margin: 0 auto;
+    
+  }
+
+  .clothes-donation-page{
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .add-cloth-form input[type="text"],
+  .add-cloth-form select,
+  .add-cloth-form input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .add-cloth-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .add-cloth-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .search-bar {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-bar input[type="text"]::placeholder {
+    color: #aaa;
+  }
+  
+  .search-bar input[type="text"]:focus {
+    outline: none;
+    border-color: #8e44ad;
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+  }
+  
+
+  .cloth-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: flex-start;
+    padding-bottom: 1%;
+  }
+  
+  .cloth {
+    width: calc(25% - 20px); /* Set the width of each item to occupy roughly one-third of the container width with some margin */
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center; /* Center align items */
+    margin-bottom: -8%;
+  }
+  
+  .cloth img {
+    
+        width: 100%; /* Ensure each image takes up the entire width of its container */
+        height: 75%; /* Set a fixed height for each item */
+        object-fit: cover; /* Ensure images cover the entire container without stretching */
+        border-radius: 2%;
+    
+  }
+  
+  .cloth-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .cloth-description {
+    font-size: 16px;
+    
+  }
+  
+  .size, .condition {
+    font-size: 15px;
+    
+  }
+
+  .condition{
+    margin-bottom: 5px;
+  }
+  
